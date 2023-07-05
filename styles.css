@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav div {
+    display: flex;
+    height: 95px;
+    justify-content: center;
+    background-color: #000;
+}
+
+nav div a img{
+    width: 20px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+nav div a{
+    padding: 8px 16px;
+    background-color: #008573;
+    align-self: flex-end;
+    color: #fff;
+    font: 400 14px/1.57 'Roboto','Open Sans','Arial',Helvetica,sans-serif;
+    border-radius: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
