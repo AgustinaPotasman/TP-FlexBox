@@ -95,7 +95,14 @@ nav ul {
 /* MAIN */
 
 .banner {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner div {
+    position: absolute;
+    left: 10%;
 }
 
 #background-banner {
