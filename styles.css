@@ -129,7 +129,9 @@ h2 {
     font: 400 58px/1.24 Louvre,Georgia,Times New Roman,serif;
     text-transform: uppercase;
 }
-
+h3{
+    margin: 1em;
+}
 
 .grid {
     display: grid;
@@ -149,9 +151,6 @@ h2 {
 .card p {
     margin-top: 1em;
 }
-
-
-
 
 /* FOOTER */
 
