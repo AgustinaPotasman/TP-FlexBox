@@ -17,36 +17,32 @@ a{
 
 li {
     list-style-type: none;
+    padding-right: 45px
 }
 
 nav ul li a {
-    text-decoration: underline solid transparent;
-    transition: text-decoration 1s ease;
+    text-decoration: 3px underline solid transparent;
+    transition: text-decoration .5s ease;
     font: 18px/1.33 'Montserrat',Verdana,sans-serif;
     font-weight: 600;
     line-height: 3.5rem;
     color: #fff;
     position: relative; 
+    letter-spacing: .15rem;
 }
 
-nav ul li a:after {
-    position: absolute;
-    height: 3px;
-    margin: 0 auto;
-    content: '';
-    left: 0;
-    right: 0;
-    width: 100%;
-    color: #000;
-    background-color: rgb(255, 255, 255);
-    left: 0;
-    bottom: -3px; /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+nav ul li a:hover {
+    text-decoration: 3px underline solid #fff;
 }
 
 
 nav ul {
     background-color: #000;
     display: flex;
+}
+
+#logo {
+    padding-left: 110px;
 }
 
 nav div {
@@ -75,9 +71,9 @@ nav div a{
     padding: 9px 16px;
     background-color: #008573;
     color: #fff;
-    font: 400 14px/1.57 'Roboto','Open Sans','Arial',Helvetica,sans-serif;
+    font: 14px/1.57 'Roboto','Open Sans','Arial',Helvetica,sans-serif;
     border-radius: 20px;
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     height: fit-content;
     margin-top: 7px;
@@ -87,6 +83,7 @@ nav div a{
 nav div a:hover {
     background-color: #0a4f51;
     text-decoration:underline;
+    transition: background-color .3s;
 }
 
 nav ul {
