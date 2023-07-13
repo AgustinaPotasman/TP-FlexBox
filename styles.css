@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@font-face {
+    font-family: Louvre;
+    src: url(fonts/latin.ttf);
+  }
+
 * {
     padding: 0;
     margin: 0;
@@ -68,4 +73,21 @@ nav div a:hover {
 nav ul {
     display: flex;
     justify-content: center;
+}
+
+
+/* MAIN */
+
+
+.HomeCover div h2 {
+    font: 400 58px/1.24 Louvre,Georgia,Times New Roman,serif;
+    text-transform: uppercase;
+}
+
+.HomeCover div { /*to center it*/
+    display: flex;
+}
+
+.HomeCover div p {
+    margin-top: 32px;
 }
