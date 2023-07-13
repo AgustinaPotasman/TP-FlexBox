@@ -108,11 +108,51 @@ nav ul {
 
 #background-banner {
     width: 100%;
-    filter: grayscale(30%);
+    filter: grayscale(35%);
 }
 
 h2 {
     color: #fff;
     font: 400 58px/1.24 Louvre,Georgia,Times New Roman,serif;
     text-transform: uppercase;
+}
+
+
+/* FOOTER */
+
+footer {
+    position:absolute;
+    bottom:0;
+    width: 100%; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 70px;
+    background-color: #000;
+}
+
+.sociales{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -24px;
+    margin-bottom: -16px;
+}
+
+.sociales li a {
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px #333;
+    display: block;
+    height: 25px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    transition: box-shadow .15s;
+}
+
+.sociales li a svg {
+    font-size: 24px;
+    height: 1em;
+    width: 1em;
+    pointer-events: none;
+    fill: #fff;
 }
