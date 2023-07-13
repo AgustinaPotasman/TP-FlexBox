@@ -68,6 +68,9 @@ nav div img {
     height: inherit;
     margin: 0 auto;
 }
+.form{
+    padding: 5em;
+}
 
 .green-button{
     padding: 9px 16px;
@@ -94,6 +97,9 @@ nav ul {
     justify-content: center;
 }
 
+header a:hover{
+    color:  #008573;
+}
 
 /* MAIN */
 
@@ -143,7 +149,6 @@ h2 {
 .card p {
     margin-top: 1em;
 }
-
 
 
 
