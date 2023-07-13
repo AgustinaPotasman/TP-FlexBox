@@ -94,16 +94,16 @@ nav ul {
 
 /* MAIN */
 
+.banner {
+    
+}
 
-.HomeCover div h2 {
+#background-banner {
+    width: 100%;
+}
+
+h2 {
+    color: #fff;
     font: 400 58px/1.24 Louvre,Georgia,Times New Roman,serif;
     text-transform: uppercase;
-}
-
-.HomeCover div { /*to center it*/
-    display: flex;
-}
-
-.HomeCover div p {
-    margin-top: 32px;
 }
