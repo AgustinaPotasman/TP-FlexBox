@@ -17,17 +17,32 @@ a{
 
 li {
     list-style-type: none;
+    padding-right: 45px
 }
 
 nav ul li a {
+    text-decoration: 3px underline solid transparent;
+    transition: text-decoration .5s ease;
     font: 18px/1.33 'Montserrat',Verdana,sans-serif;
     font-weight: 600;
     line-height: 3.5rem;
+    color: #fff;
+    position: relative; 
+    letter-spacing: .15rem;
 }
+
+nav ul li a:hover {
+    text-decoration: 3px underline solid #fff;
+}
+
 
 nav ul {
     background-color: #000;
     display: flex;
+}
+
+#logo {
+    padding-left: 95px;
 }
 
 nav div {
@@ -56,9 +71,9 @@ nav div a{
     padding: 9px 16px;
     background-color: #008573;
     color: #fff;
-    font: 400 14px/1.57 'Roboto','Open Sans','Arial',Helvetica,sans-serif;
+    font: 14px/1.57 'Roboto','Open Sans','Arial',Helvetica,sans-serif;
     border-radius: 20px;
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     height: fit-content;
     margin-top: 7px;
@@ -68,6 +83,7 @@ nav div a{
 nav div a:hover {
     background-color: #0a4f51;
     text-decoration:underline;
+    transition: background-color .3s;
 }
 
 nav ul {
@@ -78,16 +94,23 @@ nav ul {
 
 /* MAIN */
 
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.HomeCover div h2 {
+.banner div {
+    position: absolute;
+    left: 10%;
+}
+
+#background-banner {
+    width: 100%;
+}
+
+h2 {
+    color: #fff;
     font: 400 58px/1.24 Louvre,Georgia,Times New Roman,serif;
     text-transform: uppercase;
-}
-
-.HomeCover div { /*to center it*/
-    display: flex;
-}
-
-.HomeCover div p {
-    margin-top: 32px;
 }
