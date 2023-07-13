@@ -61,7 +61,9 @@ nav div {
     transform: rotate(327deg);
     margin-right: 7px;
 }
-
+.green-button :hover{
+    background-color: #2c2b2b;
+}
 nav div img {
     height: inherit;
     margin: 0 auto;
@@ -110,6 +112,11 @@ nav ul {
     width: 100%;
     filter: grayscale(35%);
 }
+h1{
+    padding:0 , 5em;
+    text-align:center;
+}
+
 
 h2 {
     color: #fff;
@@ -118,10 +125,32 @@ h2 {
 }
 
 
+.grid {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+}
+.grid div{
+    margin: auto;
+}
+.card img, .card video{
+    max-width: 30rem;
+    height: auto;
+}
+
+
+.card p {
+    margin-top: 1em;
+}
+
+
+
+
+
 /* FOOTER */
 
 footer {
-    position:absolute;
     bottom:0;
     width: 100%; 
     align-items: center;
